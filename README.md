@@ -9,6 +9,26 @@
 
 ---
 
+## 🖼️ API Architecture
+
+```
+┌────────────────────────────────────────────────────────────────┐
+│  [Screenshot placeholder: Postman / API Explorer view]       │
+│                                                                │
+│  GET /api/v1/financial_transactions                            │
+│  GET /api/v1/compliance/audit_logs                             │
+│  GET /api/v1/tax/gst_calculation                               │
+│                                                                │
+│  ✓ Real seed data (Wellington/Auckland businesses)            │
+│  ✓ Compliance audit trails (7-year RBNZ retention)            │
+│  ✓ Multi-tenant org isolation                                  │
+└────────────────────────────────────────────────────────────────┘
+
+Try it: spin up a Codespace and run `samples/requests.http`
+```
+
+---
+
 ## 🌟 Wellington Harbor Impact Statement
 
 **Built by a Girls Who Code leader with 13+ years of inclusive tech experience**, this API suite represents the kind of regulatory-aware, enterprise-grade fintech development that Wellington's financial services ecosystem demands. Perfect for hybrid work environments where collaborative API design meets deep focus implementation.
@@ -22,6 +42,11 @@
 - **Try it in GitHub Codespaces (recommended):** https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=1070408263
 - **Sample requests:** `samples/requests.http`
 - **Docs:** see `docs/` (linked below)
+
+### 💡 At a glance
+- **Run time:** ~3 minutes for Codespace setup + seed data
+- **Tech stack:** Rails 7 API + PostgreSQL + Redis + Sidekiq
+- **What you'll see:** Multi-tenant financial API with realistic NZ business seed data, RBNZ/IRD compliance endpoints, and audit logging
 
 ---
 

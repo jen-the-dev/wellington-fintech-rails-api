@@ -1,0 +1,25 @@
+@baseUrl = http://localhost:3000
+
+### Health
+GET {{baseUrl}}/health
+
+### API status
+GET {{baseUrl}}/api/v1/status
+
+### List financial transactions
+GET {{baseUrl}}/api/v1/financial_transactions
+
+### Financial transactions compliance report
+GET {{baseUrl}}/api/v1/financial_transactions/compliance_report
+
+### GST calculation (demo)
+GET {{baseUrl}}/api/v1/tax/gst_calculation
+
+### Compliance audit logs
+GET {{baseUrl}}/api/v1/compliance/audit_logs
+
+### Accounts
+GET {{baseUrl}}/api/v1/accounts
+
+### Organizations
+GET {{baseUrl}}/api/v1/organizations

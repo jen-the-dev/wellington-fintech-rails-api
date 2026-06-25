@@ -410,3 +410,56 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **🇳🇿 Built with Wellington Harbor ambition by [Jennifer Picado](https://linkedin.com/in/jennifer-picado) - Ready to power New Zealand's fintech future through inclusive, enterprise-grade Rails development.**
 
 *This API suite represents the intersection of technical excellence, regulatory compliance, and community leadership that Wellington's fintech ecosystem needs. Let's build the future of New Zealand financial services together!*
+
+
+## Problem
+Financial services products require secure, compliant APIs with strong observability and maintainable service boundaries.
+
+## Solution
+A Rails API suite demonstrating fintech-oriented modules, integration patterns, and compliance-aware architecture.
+
+## Architecture Diagram
+```mermaid
+flowchart LR
+  Clients --> API["Rails API"]
+  API --> Domain["Fintech modules"]
+  Domain --> DB["PostgreSQL/Redis"]
+  API --> Integrations["Banking + regulatory integrations"]
+```
+
+## Tech Stack
+- Ruby on Rails API mode
+- PostgreSQL
+- Redis
+- Docker Compose
+- CI/CD workflows
+
+## Setup Instructions
+```bash
+bundle install
+rails db:setup
+docker-compose up -d
+rails server
+```
+
+## Testing
+- rails test
+- API smoke tests against local health/status endpoints
+
+## ANZSCO 261312 Competency Evidence
+- API-first enterprise software design.
+- Compliance-aware backend implementation.
+- Operational delivery and service integration patterns.
+
+## Commit Convention
+Use Conventional Commits for presentation clarity:
+- `feat(scope): add new user-facing capability`
+- `fix(scope): resolve functional defect`
+- `test(scope): add or improve automated tests`
+- `docs(readme): improve project documentation`
+
+## Evidence Map
+- `app/`
+- `config/`
+- `docker-compose.yml`
+- `docs/`

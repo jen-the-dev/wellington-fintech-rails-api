@@ -9,6 +9,12 @@
 
 ---
 
+
+## ANZSCO 261312 Skills Snapshot
+- API-first backend architecture for regulated fintech-style workflows.
+- Integration-aware software engineering across compliance and platform boundaries.
+- Scalable service design supported by documented operational practices.
+
 ## 🌟 Wellington Harbor Impact Statement
 
 **Built by a Girls Who Code leader with 13+ years of inclusive tech experience**, this API suite represents the kind of regulatory-aware, enterprise-grade fintech development that Wellington's financial services ecosystem demands. Perfect for hybrid work environments where collaborative API design meets deep focus implementation.

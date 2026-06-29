@@ -1,5 +1,5 @@
 # Wellington FinTech Rails API
-Portfolio repository aligned to ANZSCO 261312 (Developer Programmer), demonstrating API-first backend design for fintech-style workflows and regulated-domain requirements.
+Rails API showcasing API-first backend design for fintech-style workflows and compliance-aware engineering patterns.
 
 ## Problem
 Financial-domain products require maintainable API boundaries, reliable data workflows, and compliance-aware engineering practices.
@@ -31,11 +31,6 @@ rails server
 ## Testing
 - `rails test`
 - API smoke checks against health/status endpoints.
-
-## ANZSCO 261312 Competency Evidence
-- **Programming and implementation**: backend API modules and service-oriented structure.
-- **Systems integration**: fintech-style integration patterns and deployment workflow support.
-- **Quality and maintainability**: documented setup and repeatable testing flow.
 
 ## Commit Convention
 Use Conventional Commits for presentation clarity:
